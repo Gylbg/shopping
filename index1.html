@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index1.css">
+    <link rel="stylesheet" href="css/base.css">
+</head>
+
+<body>
+    <div class="LB">
+        <section class="stop">
+            <div> </div>
+            <div> </div>
+            <div> </div>
+            <div> </div>
+            <div> </div>
+            <div> </div>
+        </section>
+    </div>
+    <div class="tishi"> <img src="images/s.gif" class="tishi1" alt="">
+        <a href="register.html">立即登录</a>
+    </div>
+
+
+    <div class="bear">
+    </div>
+    <div class="bg">
+        <div class="cloud"></div>
+        <div class="cloud1"></div>
+        <div class="cloud2"></div>
+    </div>
+
+    <script>
+        var img = document.querySelector('.tishi1')
+        var date = new Date();
+        var h = date.getHours();
+        if (h < 12) {
+            img.src = 'images/s.gif'
+        } else if (h < 24) {
+            img.src = 'images/x1.gif'
+        } else {
+            img.src = 'images/w1.gif'
+        }
+    </script>
+</body>
+
+</html>
