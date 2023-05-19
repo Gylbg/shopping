@@ -1,0 +1,233 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.reg_form a :hover {
+    color: red;
+}
+
+.header {
+    height: 84px;
+    border-bottom: 2px solid #c81523;
+}
+
+.logo {
+    padding-top: 18px;
+}
+
+.logo a img {
+    width: 110px;
+    height: 55px;
+}
+
+.registerarea {
+    height: 522px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+
+.registerarea h3 {
+    height: 42px;
+    border-bottom: 1px solid #ececec;
+    background-color: #ececec;
+    line-height: 42px;
+    padding: 0 10px;
+    font-size: 18px;
+}
+
+.login {
+    float: right;
+    font-size: 14px;
+}
+
+.login a {
+    color: #c81523;
+}
+
+.reg_form {
+    width: 600px;
+    margin: 100px 400px;
+}
+
+.reg_form ul {
+    margin: auto;
+}
+
+.reg_form ul li {
+    margin-bottom: 20px;
+}
+
+.reg_form ul li label {
+    display: inline-block;
+    width: 88px;
+    text-align: right;
+}
+
+.reg_form ul li .phone {
+    width: 242px;
+    height: 37px;
+    border: 1px solid #ccc;
+}
+
+.reg_form ul li .idnumble {
+    width: 242px;
+    height: 37px;
+    border: 1px solid #ccc;
+}
+
+.reg_form ul li .secret {
+    width: 242px;
+    height: 37px;
+    border: 1px solid #ccc;
+}
+
+.reg_form ul li .secret1 {
+    width: 242px;
+    height: 37px;
+    border: 1px solid #ccc;
+}
+
+.normal {
+    color: #ccc;
+}
+
+.normal1 {
+    color: #ccc;
+}
+
+.normal2 {
+    color: #ccc;
+}
+
+.normal3 {
+    color: #ccc;
+}
+
+.normal_icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -2px;
+    width: 20px;
+    height: 20px;
+    background: url(../images/mess.png) no-repeat;
+}
+
+.normal_icon1 {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -2px;
+    width: 20px;
+    height: 20px;
+    background: url(../images/mess.png) no-repeat;
+}
+
+.normal_icon2 {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -2px;
+    width: 20px;
+    height: 20px;
+    background: url(../images/mess.png) no-repeat;
+}
+
+.normal_icon3 {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -2px;
+    width: 20px;
+    height: 20px;
+    background: url(../images/mess.png) no-repeat;
+}
+
+.error {
+    color: #c81523;
+}
+
+.error_icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -2px;
+    width: 20px;
+    height: 20px;
+    background: url(../images/error.png) no-repeat;
+}
+
+.success {
+    color: green;
+}
+
+.success_icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -2px;
+    width: 20px;
+    height: 20px;
+    background: url(../images/success.png) no-repeat;
+}
+
+.safe {
+    margin-left: 170px;
+}
+
+.safe em {
+    padding: 0 12px;
+    color: #fff;
+}
+
+.ruo {
+    background-color: #de1111;
+}
+
+.zhong {
+    background-color: #40b83f;
+}
+
+.qiang {
+    background-color: #f79100;
+}
+
+.agree {
+    padding-left: 95px;
+}
+
+.agree input {
+    vertical-align: middle;
+}
+
+.agree a {
+    color: #1ba1e6;
+}
+
+.btn {
+    line-height: 34px;
+    text-align: center;
+    display: block;
+    width: 200px;
+    height: 34px;
+    background-color: #c81523;
+    font-size: 14px;
+    color: #fff;
+    margin: 30px 0 0 100px;
+}
+
+.mod_copyright {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.links {
+    margin-bottom: 15px;
+}
+
+.copyright {
+    line-height: 20px;
+}
+
+.links a {
+    margin: 0px 3px;
+}
+
+.btn:hover {
+    color: #fff;
+}
